@@ -6,6 +6,8 @@
 
 we will demonstrate how to create a inpainting eraser that can remove any object from an image using Amazon SageMaker. This tool can come in handy when you need to remove photobombs, get rid of unwanted objects, or even clean up backgrounds. Especially for graphic designers and creative artists who are repeating these task on the daily bases. This can be a great efficiency booster to enhance their creative workflow.
 
+This example has 2 notebooks: `0_setup.ipynb` and `1_inpainting_eraser_using_genai.ipynb`. Please run them in sequence. **Notebooks are tested using pytorch kernel on SageMaker Notebook Instance using `ml.g4dn.xlarge`**
+
 ---
 
 ## Solution Overview
