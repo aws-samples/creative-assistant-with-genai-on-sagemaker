@@ -17,7 +17,6 @@ This solution not only can erase object from image, it also can fill object or r
 To generate segmentation, we used a foundation model developed by Meta Research called **[Segment Anything Model (SAM)](https://segment-anything.com/) - Apache-2.0 license**. This model is trained on a massive dataset called SA-1B with over 11 million images and 1.1 billion segmentation masks.  This massive scale gave Sam model unprecedented ability to identify and isolate objects from an image out of the box without training.
 
 To fill/replace, we will use **[Stable Diffusion (SD) Inpaint](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting) - CreativeML Open RAIL++-M License** model from Stabilityai. This model does image-to-image, but also allows you to supply a mask. The model take the entire image as context and generate the mask region according to a set of text prompts.
-![magic_fill_replace](https://raw.github.com/geekyutao/Inpaint-Anything/main/example/MainFramework.png)
 
 Here is the Architecture Diagram:
 
