@@ -9,7 +9,7 @@ pip install torch
 pip install opencv-python
 pip install pyyaml
 pip install tqdm
-pip install numpy
+pip install numpy==1.23
 pip install easydict==1.9.0
 pip install scikit-image==0.17.2
 pip install scikit-learn==0.24.2

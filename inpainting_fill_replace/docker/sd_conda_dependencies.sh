@@ -6,8 +6,9 @@ source activate stablediff_env
 export PYTHONNOUSERSITE=True
 pip install torch 
 pip install transformers ftfy scipy accelerate
-pip install diffusers==0.13.0
+pip install diffusers
 pip install opencv-python-headless==4.7.0.68
 pip install xformers
 pip install conda-pack
+pip install matplotlib
 conda-pack
