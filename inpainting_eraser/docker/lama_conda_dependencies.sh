@@ -5,7 +5,7 @@ source ~/anaconda3/etc/profile.d/conda.sh
 source activate lama_env
 export PYTHONNOUSERSITE=True
 
-pip install torch 
+pip install --extra-index-url https://download.pytorch.org/whl/cu118 torch
 pip install opencv-python
 pip install pyyaml
 pip install tqdm

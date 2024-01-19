@@ -14,14 +14,12 @@ Also, keep in mind that running the models may incur additional AWS charges, so 
 
 ## [Inpainting Eraser](inpainting_eraser)
 
-we will demonstrate how to create a magic eraser that can remove any object from an image using Amazon SageMaker. This tool can come in handy when you need to remove photobombs, get rid of unwanted objects, or even clean up backgrounds. 
+we will demonstrate how to create a inpainting eraser that can remove any object from an image using Amazon SageMaker. This tool can come in handy when you need to remove photobombs, get rid of unwanted objects, or even clean up backgrounds. 
 
-## [Inpainting Fill/Replace](inpainting_fill_replace)
+## [Inpainting Fill and Outpanting](inpainting_fill_outpainting)
 
-we will demonstrate how to create a magic fill/replace tool that can erase, fill, and replace background of any object from an image using Amazon SageMaker.
+we will demonstrate how to create a inpainting fill tool that can erase, fill, and replace any object from an image as well as extending images around the edges using Amazon Bedrock. 
 
-![magic_fill_replace](https://raw.github.com/geekyutao/Inpaint-Anything/main/example/MainFramework.png)
-Figure 1: Inpainting workflow (Inpaint Anything - https://github.com/geekyutao/Inpaint-Anything)
 
 ## License
 
