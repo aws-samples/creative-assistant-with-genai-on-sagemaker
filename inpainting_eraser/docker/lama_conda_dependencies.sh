@@ -5,7 +5,7 @@ source ~/anaconda3/etc/profile.d/conda.sh
 source activate lama_env
 export PYTHONNOUSERSITE=True
 
-pip install --extra-index-url https://download.pytorch.org/whl/cu118 torch
+pip install --extra-index-url https://download.pytorch.org/whl/cu118 torch torchvision
 pip install opencv-python
 pip install pyyaml
 pip install tqdm
@@ -25,7 +25,6 @@ pip install kornia==0.5.0
 pip install webdataset
 pip install packaging
 pip install omegaconf==2.1.2
-pip install torchvision
 pip install conda-pack
 conda-pack
 
