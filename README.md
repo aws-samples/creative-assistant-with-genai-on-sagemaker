@@ -5,7 +5,7 @@ This GitHub repository contains various language assisted editing techniques by 
 ## Pre-requisites:
 
 - An AWS account with access to Amazon SageMaker and S3.
-- Basic knowledge of Python and Jupyter Notebook.
+- Basic knowledge of Python and Jupyter Notebook with at least **100 GB of EBS volume.**
 - Good understanding of SageMaker Multi-Model Endpoint w/ GPU
 - Some understanding of Triton server for deep learning models
 - A GPU instance to achieve better performance. `ml.g5.2xlarge` is the minimum size we recommend to host these models
